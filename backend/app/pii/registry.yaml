@@ -1,0 +1,23 @@
+aadhaar:
+  regex: "\\b[2-9]{1}[0-9]{3}\\s?[0-9]{4}\\s?[0-9]{4}\\b"
+  validator: "verhoeff"
+  context_keywords: ["aadhaar", "uidai"]
+  mask: "XXXX XXXX {last4}"
+
+pan:
+  regex: "\\b[A-Z]{5}[0-9]{4}[A-Z]{1}\\b"
+  validator: "pan_format"
+  context_keywords: ["pan", "income tax"]
+  mask: "XXXXX{last4}X"
+
+passport:
+  regex: "\\b[A-PR-WY][0-9]{7}\\b"
+  validator: "passport_format"
+  context_keywords: ["passport"]
+  mask: "X{last7}"
+
+driving_license:
+  regex: "\\b([A-Z]{2}[0-9]{2}\\s?[0-9]{11,12})\\b"
+  validator: "dl_format"
+  context_keywords: ["driving license", "dl no"]
+  mask: "XX XX XXXXXX"

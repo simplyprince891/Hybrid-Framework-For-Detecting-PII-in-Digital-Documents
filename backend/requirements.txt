@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+tika
+pytesseract
+Pillow
+PyYAML
+sqlalchemy
+psycopg2-binary
+cryptography
+setuptools<81

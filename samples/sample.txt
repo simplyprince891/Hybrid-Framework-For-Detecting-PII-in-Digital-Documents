@@ -1,0 +1,11 @@
+John Doe
+PAN: ABCDE1234F
+Passport: N1234567
+Voter ID (EPIC): ABC1234567
+Driver License: MH12-01234567890
+IFSC: HDFC0001234
+GSTIN: 27ABCDE1234F1Z5
+TAN: PQRS12345Z
+UPI: john.doe@okhdfcbank
+Phone: +91 9876543210
+Email: john.doe@example.com 
