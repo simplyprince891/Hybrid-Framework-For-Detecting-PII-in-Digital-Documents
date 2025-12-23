@@ -21,9 +21,6 @@ while complying with DPDP Act requirements.
 - ML models
 - FastAPI (if used)
 
-## Architecture
-(Add diagram image if you have)
-
 ## How to Run
 ```bash
 pip install -r requirements.txt
